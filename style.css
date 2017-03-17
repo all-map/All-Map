@@ -40,9 +40,9 @@ h2{
 }
 
 #header{
-	text-shadow: 1px 1px 3px black;
-	background-color: rgb(13,45,164);
-	color: white;
+	text-shadow: 1px 1px 3px lightgrey;
+	/*background-color: rgb(13,45,164);*/
+	color: black;
 	margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
@@ -50,7 +50,6 @@ h2{
 	border-radius: 2px;
 	padding: 30px;
     border: 1px;
-
 }
 
 #intro, .lowPart{
@@ -69,8 +68,9 @@ h2{
 #hidden {
 	color: rgba(255,255,255,0);
 }
-
-
+#logo {
+	width:30%;
+}
 
 
 
