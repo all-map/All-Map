@@ -28,6 +28,7 @@ h2{
 .footer {
 	background-color: black;
 	color: white;
+	padding-bottom: 5px; 
 }
 .footer a {
 	color: lightgrey;
