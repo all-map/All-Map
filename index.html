@@ -4,11 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CARTE DE L'ALLIANCE</title>
+    <title>All'Map</title>
 
-    <meta name="description" content="Carte interactive de l'Alliance">
+    <meta name="description" content="Carte interactive permettant aux étudiants de l'Alliance de se rencontrer via des événements géolocalisés">
     <!-- Référencement FB -->
-    <meta property="og:title" content="Carte de l'Alliance">
+    <meta property="og:title" content="All'Map">
     <meta property="og:image" content="logo">
     <meta property="og:description" content="Tu cherches une soirée, un partenaire de footing ou tout simplement rencontrer des nouveaux étudiants de l'Alliance ? Alors rejoins la communauté et partage tes propres événements !">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -33,54 +33,65 @@
   <body>
   <div id="header">
     <h1><img id="logo" src="image/logo.svg" alt="ALL' MAP"></h1>
-    <h2>Live easy, meet easy !</h2>
-  </div>
-  <div id="intro">
     <div class="container">
+      <!-- <div class="row">
+        <div class="col-xs-8 col-xs-offset-2"> -->
       <section class="rw-wrapper">
-        <div class="rw-sentence">
+        <h2 class="rw-sentence">
           <span>Tu cherches </span><br>
           <div class="rw-words rw-words-1">
-            <span>une soirée ?</span>
-            <span>une sortie bar ?</span>
-            <span>un partenaire de footing ?</span>
-            <span>une sortie au musée ?</span>
-            <span>à rencontrer des étudiants de l'Alliance ?</span>
+            <span class="text-center">une soirée ?</span>
+            <span class="text-center">une sortie bar ?</span>
+            <span class="text-center">un partenaire de footing ?</span>
+            <span class="text-center">une sortie au musée ?</span>
+            <span class="text-center">à rencontrer des étudiants de l'Alliance ?</span>
           </div>
-          <span id="hidden">à rencontrer des étudiants de l'Alliance ?</span>
-        </div>
+          <!--<span id="hidden">à rencontrer des étudiants de l'Alliance ?</span>-->
+        </h2>
       </section>
     </div>
-    <p>Alors rejoins la communauté et partage tes propres événements !</p>
-    <div class="click">
-      <a class='btn btn-info btn btn-lg' href="#">Ajoute ton événement !</a>
-    </div>
   </div>
-  <div class="container">
-      <div class="row">
-        <div class="col-xs-4">
-          <div class="filters">
-            <img src="image/Soiree-noir.jpg" alt="Fast" width="100px">
+  <div class="fond_bleu">
+    <h1>Live easy, meet easy !</h1>
+    <div id="intro">
+      
+      <div class="click">
+        <h2>Alors rejoins la communauté de l'Alliance et </h2> <br>
+        <a href="https://rmif.typeform.com/to/QRREgx" class="btn_top" target="_blank">partage tes propres événements !</a>
+      </div>
+    </div>
+    <div id="pictos">
+      <h2>Une carte modulable selon tes envies</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <div class="filters">
+              <img src="image/soiree.png" alt="Fast" width="100px">
+            </div>
           </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="filters">
-            <img src="image/Sport-noir.jpg" alt="Fast" width="100px">
+          <div class="col-xs-4">
+            <div class="filters">
+              <img src="image/sport.png" alt="Fast" width="100px">
+            </div>
           </div>
-        </div>
-        <div class="col-xs-4">
-          <div class="filters">
-            <img src="image/Culture-noir.jpg" alt="Fast" width="100px">
+          <div class="col-xs-4">
+            <div class="filters">
+              <img src="image/artetculture.png" alt="Fast" width="100px">
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   <div class="lowPart">
     <div id="map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1sHN_cOi7YTvOfHV5_gHX_3eRjus" width="75%" height="75%"></iframe>
+      <iframe width="100%" height="400" frameborder="0" scrolling="no" allowtransparency="true" src="https://mapalist.com/map/625210" width="75%" height="75%"></iframe>
+      <!--<iframe src="https://www.google.com/maps/d/embed?mid=1sHN_cOi7YTvOfHV5_gHX_3eRjus" width="75%" height="75%"></iframe>-->
     </div>
-     <div class="click">
-      <a class='btn btn-info btn btn-lg' href="#">Ajoute ton événement !</a>
+    <div id="mask">
+    </div>
+    <div class="click click_bottom">
+      <a href="https://rmif.typeform.com/to/QRREgx" target="_blank" class="btn_bottom">Ajoute ton événement !</a>
     </div>
   </div>
   <div class="footer">
@@ -90,7 +101,7 @@
       <li><a href="http://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
     </ul>
-    </div>
+  </div>
 
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
